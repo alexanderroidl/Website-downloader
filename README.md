@@ -2,7 +2,7 @@
 
 Download any website including assets!
 
-![Preview](https://github.com/alexanderroidl/website-downloader/blob/main/public/Record.gif?raw=true)
+![Preview](https://github.com/alexanderroidl/website-downloader/blob/main/preview.gif?raw=true)
 
 ## Table Of Contents 📒
 

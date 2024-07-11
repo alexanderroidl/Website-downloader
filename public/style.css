@@ -6,9 +6,10 @@ header [role="progressbar"][aria-busy="true"] {
   width: 100%;
   background-color: #159756;
   -webkit-animation: preloader-background linear 3.5s infinite;
-          animation: preloader-background linear 3.5s infinite;
+  animation: preloader-background linear 3.5s infinite;
 }
-header [role="progressbar"][aria-busy="true"]::before, header [role="progressbar"][aria-busy="true"]::after {
+header [role="progressbar"][aria-busy="true"]::before,
+header [role="progressbar"][aria-busy="true"]::after {
   display: block;
   position: absolute;
   top: 0;
@@ -17,8 +18,8 @@ header [role="progressbar"][aria-busy="true"]::before, header [role="progressbar
   height: 8px;
   background: #afa;
   -webkit-animation: preloader-front linear 3.5s infinite;
-          animation: preloader-front linear 3.5s infinite;
-  content: '';
+  animation: preloader-front linear 3.5s infinite;
+  content: "";
 }
 header [role="progressbar"][aria-busy="true"]::before {
   right: 50%;
@@ -28,31 +29,39 @@ header [role="progressbar"][aria-busy="true"]::after {
 }
 
 @-webkit-keyframes preloader-background {
-  0%, 24.9% {
+  0%,
+  24.9% {
     background-color: #159756;
   }
-  25%, 49.9% {
+  25%,
+  49.9% {
     background-color: #da4733;
   }
-  50%, 74.9% {
+  50%,
+  74.9% {
     background-color: #3b78e7;
   }
-  75%, 100% {
+  75%,
+  100% {
     background-color: #fdba2c;
   }
 }
 
 @keyframes preloader-background {
-  0%, 24.9% {
+  0%,
+  24.9% {
     background-color: #159756;
   }
-  25%, 49.9% {
+  25%,
+  49.9% {
     background-color: #da4733;
   }
-  50%, 74.9% {
+  50%,
+  74.9% {
     background-color: #3b78e7;
   }
-  75%, 100% {
+  75%,
+  100% {
     background-color: #fdba2c;
   }
 }
@@ -164,12 +173,12 @@ h1 {
 }
 
 .input-group {
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 p {
   margin: 0;
-  font-size: .875em;
+  font-size: 0.875em;
   font-weight: 400;
 }
 
