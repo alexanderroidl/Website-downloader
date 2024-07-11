@@ -4,7 +4,7 @@ Download any website including assets!
 
 ![Preview](https://github.com/alexanderroidl/website-downloader/blob/main/public/Record.gif?raw=true)
 
-# Table Of Contents 📒
+## Table Of Contents 📒
 
 - [1. Quick Start ⚡](#1-quick-start-)
 - [2. How it works ⚙️](#2-how-it-works-)
