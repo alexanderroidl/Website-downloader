@@ -1,4 +1,4 @@
-# Website Downloader 💾🕸️
+# Website Downloader 💾
 
 Download any website including assets!
 
