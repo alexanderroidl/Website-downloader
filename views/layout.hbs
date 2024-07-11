@@ -2,9 +2,9 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
 
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
 
     <script src="/socket.io/socket.io.js"></script>
 <!-- Place this tag in your head or just before your close body tag. -->
@@ -45,7 +45,7 @@
    else if(event.progress=="Completed")
    {
         document.getElementById('progress').hidden=true;
-        log.innerHTML=(`<code>Compressing completed successfully !</code><br>`)
+        log.innerHTML=(`<code>Compressing completed successfully.</code><br>`)
         downloadWebsite.style='display:'
         downloadWebsite.onclick=function()
         {
@@ -68,7 +68,7 @@
    const downloadBtn =  document.getElementById("download");
    downloadBtn.onclick=()=>{
         var website = document.getElementById('website').value
-        console.log("Now downloading the website ... %s",website)
+        console.log("Downloading the website... %s",website)
         socket.emit('request', { token: localStorage['token'] , website});
    }
 
