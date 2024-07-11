@@ -8,6 +8,7 @@ Download any website including assets!
 
 - [1. Quick Start ⚡](#1-quick-start-)
 - [2. How it works ⚙️](#2-how-it-works-)
+- [3. Attributions 🤝](#3-attributions-)
 
 ## 1. Quick Start ⚡
 
@@ -40,7 +41,7 @@ $ npm start
 | --page-requisites  | Download assets required to properly display the page offline.                       |
 | --no-parent        | When recursing do not ascend to the parent directory.                                |
 
-## 3. Attributions
+## 3. Attributions 🤝
 
 - [Original Website-Downloader](https://github.com/AhmadIbrahiim/Website-downloader) by [Ahmad Ibrahiim](https://github.com/AhmadIbrahiim). License: [MIT](https://raw.githubusercontent.com/AhmadIbrahiim/Website-downloader/master/LICENSE.md)
 - Floppy emoji designed by [OpenMoji](https://openmoji.org/). License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/#)
