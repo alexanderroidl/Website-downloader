@@ -1,5 +1,5 @@
-## Complete Website Downloader 💾
-Download the complete source code of any website (including all assets) 🔨.
+# Website Downloader 💾🕸️
+Download any website including assets!
 
 👉 Live Demo: https://website-downloader.onrender.com
 
